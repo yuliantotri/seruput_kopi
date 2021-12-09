@@ -71,9 +71,8 @@ class Checkout extends Command
                         // Check Promo Caffe Latte
                         if (strpos($value2->code, 'CL') !== false && $free_cl == 0) {
                             $free_cl = 1;
-                        }    else{
-                            $total += $value2->price-($value2->price*$discount[$value2->code]/100);
                         }     
+                        $total += $value2->price-($value2->price*$discount[$value2->code]/100);
                     }
                 }
             }
