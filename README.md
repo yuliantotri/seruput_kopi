@@ -2,8 +2,8 @@ How to run :
 - make sure .env config is same like your new database.
 - composer install.
 - php artisan migrate.
-- php artisan checkout {product}
-- example : php artisan checkout CL1 CL1 FR1 CL1
+- php artisan command:checkout {product}
+- example : php artisan command:checkout CL1 CL1 FR1 CL1
 
 Here is the list of the products and it prices, depends on the location
 ![image](https://user-images.githubusercontent.com/25179703/145393933-f29be21a-5c9b-443b-b3c3-63fd1350db28.png)
